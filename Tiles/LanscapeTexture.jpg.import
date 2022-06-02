@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/LanscapeTexture.jpg-d06b976b8c5de11ccb39d025c863c760.s3tc.stex"
-path.etc2="res://.import/LanscapeTexture.jpg-d06b976b8c5de11ccb39d025c863c760.etc2.stex"
+path.s3tc="res://.import/LanscapeTexture.jpg-1f280c65f3b450177c4457f2ad50d342.s3tc.stex"
+path.etc2="res://.import/LanscapeTexture.jpg-1f280c65f3b450177c4457f2ad50d342.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/Tiles/LanscapeTexture.jpg"
-dest_files=[ "res://.import/LanscapeTexture.jpg-d06b976b8c5de11ccb39d025c863c760.s3tc.stex", "res://.import/LanscapeTexture.jpg-d06b976b8c5de11ccb39d025c863c760.etc2.stex" ]
+source_file="res://Tiles/LanscapeTexture.jpg"
+dest_files=[ "res://.import/LanscapeTexture.jpg-1f280c65f3b450177c4457f2ad50d342.s3tc.stex", "res://.import/LanscapeTexture.jpg-1f280c65f3b450177c4457f2ad50d342.etc2.stex" ]
 
 [params]
 

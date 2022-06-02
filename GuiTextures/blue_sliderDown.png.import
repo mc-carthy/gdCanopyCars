@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/grey_arrowUpWhite.png-d0733868eb7399d4c04a9ca262abed6f.stex"
+path="res://.import/blue_sliderDown.png-64e67ebaee629d3fdb325781cf63a04d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/GuiTextures/grey_arrowUpWhite.png"
-dest_files=[ "res://.import/grey_arrowUpWhite.png-d0733868eb7399d4c04a9ca262abed6f.stex" ]
+source_file="res://GuiTextures/blue_sliderDown.png"
+dest_files=[ "res://.import/blue_sliderDown.png-64e67ebaee629d3fdb325781cf63a04d.stex" ]
 
 [params]
 

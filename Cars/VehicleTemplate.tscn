@@ -1,0 +1,70 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://CarsModels/Wheels/WheelDefault.mesh" type="ArrayMesh" id=2]
+
+[node name="VehicleTemplate" type="VehicleBody"]
+mass = 1600.0
+
+[node name="WheelFR" type="VehicleWheel" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 0.66 )
+use_as_steering = true
+wheel_radius = 0.3
+wheel_rest_length = 0.01
+suspension_travel = 1.0
+suspension_stiffness = 125.0
+suspension_max_force = 6400.0
+
+[node name="WheelDefault" type="MeshInstance" parent="WheelFR"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.15, 0, 0 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../..")
+material/0 = null
+material/1 = null
+
+[node name="WheelFL" type="VehicleWheel" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0, 0.66 )
+use_as_steering = true
+wheel_radius = 0.3
+wheel_rest_length = 0.01
+suspension_travel = 1.0
+suspension_stiffness = 125.0
+suspension_max_force = 6400.0
+
+[node name="WheelDefault" type="MeshInstance" parent="WheelFL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.15, 0, 0 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../..")
+material/0 = null
+material/1 = null
+
+[node name="WheelRR" type="VehicleWheel" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, -0.66 )
+use_as_traction = true
+wheel_radius = 0.3
+wheel_rest_length = 0.01
+suspension_travel = 1.0
+suspension_stiffness = 125.0
+suspension_max_force = 6400.0
+
+[node name="WheelDefault" type="MeshInstance" parent="WheelRR"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0.15, 0, 0 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../..")
+material/0 = null
+material/1 = null
+
+[node name="WheelRL" type="VehicleWheel" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0, -0.66 )
+use_as_traction = true
+wheel_radius = 0.3
+wheel_rest_length = 0.01
+suspension_travel = 1.0
+suspension_stiffness = 125.0
+suspension_max_force = 6400.0
+
+[node name="WheelDefault" type="MeshInstance" parent="WheelRL"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.15, 0, 0 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../..")
+material/0 = null
+material/1 = null

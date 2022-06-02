@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/grey_sliderRight.png-1520bc41e4b6159d7a741e818db08863.stex"
+path="res://.import/grey_box.png-373fc370120501d9e0503117f1ebd9cc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/GuiTextures/grey_sliderRight.png"
-dest_files=[ "res://.import/grey_sliderRight.png-1520bc41e4b6159d7a741e818db08863.stex" ]
+source_file="res://GuiTextures/grey_box.png"
+dest_files=[ "res://.import/grey_box.png-373fc370120501d9e0503117f1ebd9cc.stex" ]
 
 [params]
 
