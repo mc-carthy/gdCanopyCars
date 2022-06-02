@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/EngineWhistle.ogg-e52e8f9ec7c318a566e359431c187f44.oggstr"
+
+[deps]
+
+source_file="res://assets/SFX/EngineWhistle.ogg"
+dest_files=[ "res://.import/EngineWhistle.ogg-e52e8f9ec7c318a566e359431c187f44.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
